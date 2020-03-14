@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.par
+{
+    height: 150vh;
+    margin-left: 4%;
+    margin-top : 2%;
+    
+}
+.one
+{
+    height: 16%;
+    width: 9%;
+    background: rgb(208,235,255);
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4%;
+    margin-bottom: 2%;
+}
+
+.two
+{
+    height: 35%;
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,150,255);
+    border-radius: 100%;
+}
+.forms
+{ 
+    height: 73.9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background: grey; */
+}
+#font
+{
+    font-size: 18pt;
+}
+.head
+{
+    margin-bottom: 3.5%;
+}
+.button
+{
+  height: 5vh;
+  width: 11.2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
