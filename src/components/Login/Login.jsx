@@ -3,6 +3,7 @@ import '../Login/Login.css'
 import {Button,SHAPE} from "baseui/button"
 import { SIZE } from 'baseui/input';
 import { Input } from "baseui/input";
+import {Link} from 'react-router-dom'
 import {FormControl} from "baseui/form-control"
 import hv from '../Login/hv.png';
 class Login extends Component{
@@ -24,7 +25,9 @@ class Login extends Component{
     >
       <Input type="password"/>
     </FormControl>
-        <Button className="but" size = {SIZE.mini} shape={SHAPE.pill} >Submit</Button>
+    <Link to= "/form">
+    <Button   className="but" size = {SIZE.mini} shape={SHAPE.pill} >Click me!!------I'll take you to the next page</Button>
+    </Link>
         </form>
     
         <div className="footer"> <p>This is footer</p> </div>
