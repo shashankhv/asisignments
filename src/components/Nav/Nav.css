@@ -1,0 +1,61 @@
+.nav
+{
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-right: 4%;
+  
+}
+.headnav
+{
+    display: flex;
+    justify-content: space-between;
+}
+.rightnav
+{
+    width : 20%;
+    height : 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.butnav
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.navnav
+{
+    margin-top: 2%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    background : hsla(0, 3%, 68%, 0.637);
+}
+.locnav
+{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+  
+}
+
+.footnav
+{
+    height: 10% ;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.hvnav
+{   width: 30vh;
+    height: 3%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.buttonnav
+{
+    border-radius: 6%;
+}
