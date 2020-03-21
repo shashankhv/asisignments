@@ -1,0 +1,54 @@
+.headerBase
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.headerBaseRight
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: auto;
+}
+.navbasedrop
+{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.greybar
+{
+    background-color : rgba(110, 108, 108, 0.589);
+    height: 10vh;
+    margin-top: 1%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.middle
+{
+    height: 70vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.rightfooter
+{
+    position: absolute;
+    right:  0;
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+.leftfooter
+{
+    position: absolute;
+    left: 0;
+    margin-left: 4%;
+    width: 14vw;
+    display: flex;
+    justify-content: space-between;
+}

@@ -4,6 +4,7 @@ import Form from './components/Form/form'
 import Login from './components/Login/Login'
 import Home from './components/Home/Home'
 import Nav from './components/Nav/Nav'
+import NavBase from "./components/navBase/navBase"
 
 
 // #endregion 
@@ -16,6 +17,7 @@ function App(){ return(
         <Route path="/login" exact component={Login}/>
         <Route path="/" exact component={Home}/>
         <Route path="/nav" exact component={Nav}/>
+        <Route path='/navbase' exact component={NavBase}/>
   </div>  
   </Router>)
 };
